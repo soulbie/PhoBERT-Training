@@ -1,0 +1,26 @@
+# Environments
+venv/
+env/
+.env
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Models and logs
+phobert_gcn_model/
+phobert_sentiment_model/
+vncorenlp/
+
+# Generated files
+*.png
+*.jpg
+*.txt
+!requirements.txt
+
+# VS Code
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/

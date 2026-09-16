@@ -1,0 +1,10 @@
+pandas
+py_vncorenlp
+transformers
+datasets
+scikit-learn
+torch
+matplotlib
+networkx
+numpy
+safetensors
