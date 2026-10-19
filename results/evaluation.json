@@ -1,0 +1,63 @@
+{
+  "data": "D:\\PhoBERT Training\\data\\synthetic_val.csv",
+  "num_samples": 2036,
+  "accuracy": 0.8737721021611002,
+  "f1_weighted": 0.8727488332288998,
+  "f1_macro": 0.8720883366470877,
+  "per_class": {
+    "Tiêu cực": {
+      "precision": 0.9711399711399712,
+      "recall": 0.9810495626822158,
+      "f1-score": 0.9760696156635243,
+      "support": 686.0
+    },
+    "Trung tính": {
+      "precision": 0.8542372881355932,
+      "recall": 0.7522388059701492,
+      "f1-score": 0.8,
+      "support": 670.0
+    },
+    "Tích cực": {
+      "precision": 0.799468791500664,
+      "recall": 0.8852941176470588,
+      "f1-score": 0.840195394277739,
+      "support": 680.0
+    },
+    "accuracy": 0.8737721021611002,
+    "macro avg": {
+      "precision": 0.8749486835920761,
+      "recall": 0.8728608287664746,
+      "f1-score": 0.8720883366470877,
+      "support": 2036.0
+    },
+    "weighted avg": {
+      "precision": 0.875333880880805,
+      "recall": 0.8737721021611002,
+      "f1-score": 0.8727488332288998,
+      "support": 2036.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      673,
+      12,
+      1
+    ],
+    [
+      16,
+      504,
+      150
+    ],
+    [
+      4,
+      74,
+      602
+    ]
+  ],
+  "per_topic_accuracy": {
+    "curriculum": 0.863905325443787,
+    "facility": 0.8555133079847909,
+    "lecturer": 0.8679611650485437,
+    "others": 0.9098360655737705
+  }
+}

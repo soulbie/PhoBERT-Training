@@ -1,26 +1,27 @@
-# Environments
+# Môi trường ảo
 venv/
+.venv/
 env/
 .env
 
-# Python caches
+# Python cache
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 
-# Models and logs
+# Trọng số mô hình (~0.5GB / checkpoint) và VnCoreNLP (tự tải khi chạy)
 phobert_gcn_model/
-phobert_sentiment_model/
 vncorenlp/
 
-# Generated files
-*.png
-*.jpg
-*.txt
-!requirements.txt
+# Tài liệu tham khảo cá nhân
+graph.pdf
 
-# VS Code
+# IDE / Notebook
 .vscode/
-
-# Jupyter Notebooks
+.idea/
 .ipynb_checkpoints/
+
+# File nguồn Graphviz trung gian (visualize_graph.py tự sinh lại, đã có ảnh PNG)
+*.gv
+
+# File tải dở của VnCoreNLP
+*.part
